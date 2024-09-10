@@ -18,3 +18,19 @@
     opacity: 1;
   }
   
+
+  .link-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .link-container a {
+    font-size: 32px;
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .link-container a:hover {
+    text-decoration: underline;
+  }
+  
