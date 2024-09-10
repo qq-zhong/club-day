@@ -1,0 +1,7 @@
+<div class="image-container">
+    <img *ngFor="let image of images; let i = index"
+         [src]="image" 
+         [class.active]="i === currentImageIndex"
+         class="fade-image" />
+  </div>
+  
